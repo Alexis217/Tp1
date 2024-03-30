@@ -1,0 +1,35 @@
+.japo {
+    display: flex;
+    border: 0;
+    padding: 0;
+    margin: 10px;
+}
+p {
+    display: flex;
+}
+
+.usa {
+    display: flex;
+    border: 0;
+    padding: 0;
+    margin: 10px;
+}
+
+.Euro {
+    display: flex;
+    border: 0;
+    padding: 0;
+    margin: 10px;
+}
+
+.UK {
+    display: flex;
+    justify-content: center;
+    border: 0;
+    padding: 0;
+    margin: 10px;
+}
+
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20220507/pngtree-technology-background-for-gears-in-mechanical-concepts-image_1322586.jpg);
+}
