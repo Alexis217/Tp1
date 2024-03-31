@@ -1,35 +1,63 @@
-.japo {
+.main{
     display: flex;
-    border: 0;
-    padding: 0;
-    margin: 10px;
-}
-p {
-    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.usa {
-    display: flex;
-    border: 0;
-    padding: 0;
-    margin: 10px;
-}
-
-.Euro {
+.japo, .usa, .Euro, .UK {
     display: flex;
     border: 0;
     padding: 0;
     margin: 10px;
 }
 
-.UK {
+.firstcar, .secondcar, .tercercar {
+    margin: 10px;
+    width: 20rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgAuto img {
+    width: 100%; 
+    max-width: 100%;
+    height: auto; 
+}
+
+.imgAuto {
+    border: 5px solid #000;
+    height: 175px;
+    max-height: 187px;
+    min-height: 50px; 
+}
+
+.nombreAuto {
     display: flex;
     justify-content: center;
-    border: 0;
-    padding: 0;
-    margin: 10px;
+    align-items: center;
+    border: 5px solid #000;
+    padding: 10px; 
+    background-color: rgb(3, 3, 148);
+    height: auto; 
+    max-height: 100px; 
+    min-height: 100px; 
+    overflow: hidden; 
 }
+
+p {
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0; 
+}
+
 
 body {
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20220507/pngtree-technology-background-for-gears-in-mechanical-concepts-image_1322586.jpg);
+    margin: 0;
+    padding: 0;
 }
